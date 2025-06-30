@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+xgboost
+lightgbm
+catboost
+matplotlib
+seaborn
+torch
+transformers
+hyperopt
+gensim
+nltk

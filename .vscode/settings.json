@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "D:/Anaconda/envs/ml2025/python.exe",
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMap": {
+        "python": "& 'D:/Anaconda/envs/ml2025/python.exe'"
+    }
+}

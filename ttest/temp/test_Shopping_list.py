@@ -1,6 +1,6 @@
 # test_Shopping_list.py
 import unittest
-from study import ShoppingList
+from ttest.temp.study import ShoppingList
 
 
 class TestShoppingList(unittest.TestCase):

@@ -1,10 +1,26 @@
 {
     "python.pythonPath": "D:/Anaconda/envs/ml2025/python.exe",
+    // 自动格式化（你已经启用）
     "python.formatting.provider": "autopep8",
     "editor.formatOnSave": true,
+    // Pylance 语言服务器启用（核心补全功能）
+    "python.languageServer": "Pylance",
+    // Pylance 补全相关配置
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.tabCompletion": "on",
+    "python.autoComplete.addBrackets": true,
+    // 兼容 Code Runner 设置（你原有的）
     "code-runner.runInTerminal": true,
     "code-runner.saveFileBeforeRun": true,
     "code-runner.executorMap": {
         "python": "& 'D:/Anaconda/envs/ml2025/python.exe'"
-    }
+    },
+    "python.analysis.autoImportCompletions": true
 }
